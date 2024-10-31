@@ -2,6 +2,9 @@ import numpy as np
 from helpers import *
 from plots import *
 
+"""
+Here are implemented different linear models
+"""
 
 def mean_squared_error_gd(y, tx, initial_w, max_iters, gamma):
     """The Gradient Descent (GD) algorithm.
