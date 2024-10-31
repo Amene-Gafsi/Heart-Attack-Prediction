@@ -1,7 +1,9 @@
 """
 Models validation methods 
 """
+
 from implementations import *
+
 
 def build_k_indices(y, k_fold, seed):
     """Build k indices for k-fold.

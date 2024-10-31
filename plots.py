@@ -5,6 +5,7 @@ Find here the implementation of several plots
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 def plot_gradient_loss_evolution(losses, max_iter, lambda_, gamma):
     """
     Plot the loss evolution during training

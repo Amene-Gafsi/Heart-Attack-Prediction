@@ -6,6 +6,7 @@ import numpy as np
 from helpers import predict
 from processing import Threshold
 
+
 def accuracy(x, y, w):
     """Calculates the accuracy of the model.
     Args:
